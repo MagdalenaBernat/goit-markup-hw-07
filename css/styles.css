@@ -224,7 +224,7 @@
 
     /* ---MAIN-HEADER--- */
 
-.section-heading {
+    .section-heading {
 
         .section-heading {
             background-color: #2F303A;
@@ -289,21 +289,40 @@
 
     }
 
+    /* ---MAIN-HEADER--- */
 
-
-
+    /* ---LOREM--- */
 
 
 .section-lorem {
 
+
 }
 
+    .section-lorem__list {
 
+
+    }
+
+    .section-lorem__item {
+
+
+    }
+
+    .section-lorem__item-header {
+
+
+    }
+
+    .section-lorem__item-content {
+
+
+    }    
+    /* ---/LOREM--- */
 
 
 
 /* ---/MAIN-SECTION--- */
-
 
 /* ---FOOTER-SECTION--- */
 
@@ -313,6 +332,8 @@
 /* ---/FOOTER-SECTION--- */
 
 /* =====/INDEX===== */
+
+
 
 
 /* =====PORTFOLIO===== */
