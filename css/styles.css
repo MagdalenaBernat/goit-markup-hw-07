@@ -485,7 +485,7 @@
         }
 }
 
-    .whatwedo-header {
+    .whatwedo-title {
     .text-index3 {
             font-size: 36px;
             font-weight: 700;
@@ -497,28 +497,201 @@
         }
     }
 
-
     .whatwedo-list {
+    .list {
+            list-style-type: none;
+            display: inline-block;
+        }
 
+    .item {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+    }
+
+    .container-margin {
+        justify-content: center;
+    }
+
+    .space-between {
+        justify-content: space-between;
+    }
+
+    .img-whatwedo li {
+        position: relative;
+    }
     }
 
     .whatwedo-item {
-
+    .item2 {
+            margin-left: auto;
+            align-items: center;
+            padding-right: 30px;
+        }
     }
 
     .whatwedo-image {
-
+    .img-margin {
+            margin-left: 30px;
+        }
     }
 
     .whatwedo-description {
-
+    .profession {
+        position: absolute;
+        overflow: visible;
+        bottom: -3%;
+        width: 370px;
+        height: 70px;
+        background-color: rgba(47, 48, 58, 0.8);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1,2em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     }
     /* ---/WHAT-WE-DO--- */
 
+    /* ---OUR-TEAM--- */
 
+.ourteam {
+    .section {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
 
+    .section-background-color {
+        background-color: #F5F4FA;
+    }
+}
 
+.ourteam-container {
+    .container {
+            display: flex;
+            flex-basis: 1200px;
+        }
+    .flex-column-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+}
 
+    .ourteam-container__title {
+    .text-index4 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1, 17em;
+            letter-spacing: 0, 03em;
+            text-align: center;
+            color: #212121;
+            background-color: #F5F4FA;
+        }
+    }
+
+    .ourteam-container__list {
+    .list {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+    .item {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+    }
+
+        .container-margin {
+        justify-content: center;
+    }
+    }
+
+        .ourteam-container__list-item {
+    .team-background {
+            background-color: #ffffff;
+            height: 428px;
+            box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+        }
+    
+        .item1 {
+            padding: 0px;
+            margin: 15px;
+        }
+        }
+
+    .ourteam-container__name {
+    .text-index5 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1, 71em;
+            letter-spacing: 0, 03em;
+            text-align: center;
+            color: #212121;
+            background-color: #ffffff;
+        }
+    }
+
+    .ourteam-container__name-caption {
+    .text-index6 {
+        font-size: 16px;
+        line-height: 1,71em;
+        letter-spacing: 0,03em;
+        text-align: center;
+        color: #757575;
+        background-color: #ffffff;
+    }
+    }
+
+    .ourteam-container__icons-container {
+    .div-inline {
+            display: inline-flex;
+            align-items: center;
+            width: 270px;
+            justify-content: space-around;
+        }
+    }
+
+    .ourteam-container__icons {
+    .container-icon:hover svg {
+            fill: #ffffff;
+        }
+
+        .team-icon-background {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            fill: #AFB1B8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    
+        .team-icon-background:hover {
+            background-color: #2196F3;
+            fill: #ffffff;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .ourteam-container__icons-svg {
+    .team-icon-svg {
+            fill: #AFB1B8;
+        }
+    }
+
+    /* ---/OUR-TEAM--- */
 
 /* ---/MAIN-SECTION--- */
 
@@ -529,13 +702,14 @@
 
 /* ---/FOOTER-SECTION--- */
 
-/* =====/INDEX===== */
+        /* =====/INDEX===== */
+
+
+        /* =====PORTFOLIO===== */
 
 
 
-
-/* =====PORTFOLIO===== */
-
+        /* =====/PORTFOLIO===== */
 
     
         .page-header {
