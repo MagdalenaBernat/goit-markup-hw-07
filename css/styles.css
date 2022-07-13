@@ -283,42 +283,198 @@
 
     .section-heading__button-container {
 
+    .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    .title-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .index-button {
+        display: block;
+        color: #F5F4FA;
+        background-color: #2196F3;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1,875em;
+        letter-spacing: 0,06em;
+        text-decoration: none;
+        text-align: center;
+        border: 0px;
+        border-radius: 4px;
+        width: 200px;
+        height: 50px;
+    }
+
+
+    .index-button:hover {
+        background-color: #2196f3;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: #2196f3;
+    }
     }
 
     .section-heading__button {
 
+    .index-button {
+            display: block;
+            color: #F5F4FA;
+            background-color: #2196F3;
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1, 875em;
+            letter-spacing: 0, 06em;
+            text-decoration: none;
+            text-align: center;
+            border: 0px;
+            border-radius: 4px;
+            width: 200px;
+            height: 50px;
+        }
+    
+    
+        .index-button:hover {
+            background-color: #2196f3;
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-color: #2196f3;
+        }
     }
-
     /* ---MAIN-HEADER--- */
 
     /* ---LOREM--- */
 
-
 .section-lorem {
 
+        .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
+        .container {
+        display: flex;
+        flex-basis: 1200px;
+    }
+
+        .flex-column-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
 }
 
     .section-lorem__list {
+    .list {
+            list-style-type: none;
+            display: inline-block;
+        }
 
-
+    .item {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
     }
 
-    .section-lorem__item {
+    .container-margin {
+        justify-content: center;
+    }
+    }
 
+    .section-lorem__item-first {
+    .item2 {
+            margin-left: auto;
+            align-items: center;
+            padding-right: 30px;
+        }
+    }
+
+    .section-lorem__item-next {
+    .container-item-margin {
+            margin-left: 30px;
+        }
 
     }
+    .section-lorem__icon {
+    .icon {
+            width: 270px;
+            height: 120px;
+            background-color: #F5F4FA;
+            border-radius: 4px;
+            fill: #2a2a2a;
+        }
+    .icon:hover {
+        cursor: pointer;
+    }
+
+        .icon-lorem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+    }
+    }
+
+    .section-lorem__icon-svg {
+    .icon-lorem-svg {
+        width: 70px;
+        height: 70px;
+    }
+    }
+
 
     .section-lorem__item-header {
-
-
+    .text-index1 {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1,17em;
+        letter-spacing: 0,03em;
+        text-align: left;
+        color: #212121;
+        background-color: #ffffff;
+        width: 270px;
+        height: 16px;
+        padding-top: 30px;
+    }
     }
 
     .section-lorem__item-content {
-
-
+    .text-index2 {
+        font-size: 14px;
+        line-height: 1,71em;
+        letter-spacing: 0,03em;
+        text-align: left;
+        color: #757575;
+        background-color: #ffffff;
+        width: 270px;
+        height: 75px;
+        padding-top: 10px;
+    }
     }    
     /* ---/LOREM--- */
+
+    /* ---WHAT-WE-DO--- */
+
+
+
+    /* ---/WHAT-WE-DO--- */
+
+
+
 
 
 
