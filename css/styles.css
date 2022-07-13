@@ -469,8 +469,50 @@
 
     /* ---WHAT-WE-DO--- */
 
+.whatwedo-container {
+
+        .container {
+        display: flex;
+        flex-basis: 1200px;
+    }
+
+        .flex-column-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+        }
+}
+
+    .whatwedo-header {
+    .text-index3 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1, 17em;
+            letter-spacing: 0, 03em;
+            text-align: center;
+            color: #212121;
+            background-color: #ffffff;
+        }
+    }
 
 
+    .whatwedo-list {
+
+    }
+
+    .whatwedo-item {
+
+    }
+
+    .whatwedo-image {
+
+    }
+
+    .whatwedo-description {
+
+    }
     /* ---/WHAT-WE-DO--- */
 
 
