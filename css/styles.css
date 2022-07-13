@@ -37,7 +37,7 @@
     padding: 20px;
 }
 
-/* ---header-main-section--- */
+/* ---HEADER-SECTION--- */
 
     .flex-column-header {
         display: flex;
@@ -46,7 +46,7 @@
         margin: auto;
     }
 
-    /* ---logo--- */
+    /* ---LOGO--- */
 
 .logo
 
@@ -68,11 +68,11 @@
     letter-spacing: 0,03em;
 }
 
-    /* ---/logo--- */
+    /* ---/LOGO--- */
 
 
 
-    /* ---nav-block--- */
+    /* ---NAV-BLOCK--- */
 
     .social-links:hover{
         color: #2196f3;
@@ -109,9 +109,9 @@
         }
 
     
-    /* ---/nav--- */
+    /* ---/NAV-BLOCK--- */
     
-    /* ---nav-element--- */
+    /* ---NAV-ELEMENT--- */
 
     .link {
         text-decoration: none;
@@ -140,8 +140,9 @@
         position: relative;
     }
 
-    /* ---/nav-element--- */
+    /* ---/NAV-ELEMENT--- */
     
+
     /* ---CONTACT--- */
 
 .contact-container {
@@ -216,9 +217,105 @@
 
     /* ---/CONTACT--- */
 
-/* ---/HEADER-MAIN-SECTION--- */
+/* ---/HEADER-SECTION--- */
 
 
+/* ---MAIN-SECTION--- */
+
+    /* ---MAIN-HEADER--- */
+
+.section-heading {
+
+        .section-heading {
+            background-color: #2F303A;
+            max-width: 1600px;
+            margin: 0 auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section1 {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
+
+        .title-section {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+
+    .section-heading__title {
+    .text-index {
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1,36em;
+        letter-spacing: 0,06em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #2f303a;
+        width: 696px;
+        height: 120px;
+        background: none;
+        margin-top: 100px;
+    }
+    }
+    
+
+    .section-heading__button-container {
+
+    }
+
+    .section-heading__button {
+
+    }
+
+
+
+
+
+
+.section-lorem {
+
+}
+
+
+
+
+
+/* ---/MAIN-SECTION--- */
+
+
+/* ---FOOTER-SECTION--- */
+
+
+
+
+/* ---/FOOTER-SECTION--- */
+
+/* =====/INDEX===== */
+
+
+/* =====PORTFOLIO===== */
 
 
     
