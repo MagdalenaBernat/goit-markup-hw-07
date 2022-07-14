@@ -180,7 +180,7 @@
 
     /* ---MAIN-HEADER--- */
 
-.main-heading {
+.main-headline {
             background-color: #2F303A;
             max-width: 1600px;
             margin: 0 auto;
@@ -191,7 +191,7 @@
             justify-content: space-between;
     }
 
-.main-heading__container {
+.main-headline__container {
         max-width: 1200px;
         margin: 0 auto;
         display: flex;
@@ -206,7 +206,7 @@
             margin-left: auto;
 }
 
-    .main-heading__title {
+    .main-headline__title {
         font-size: 44px;
         font-weight: 900;
         line-height: 1,36em;
@@ -222,7 +222,7 @@
     }
     
 
-    .main-heading__button-container {
+    .main-headline__button-container {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -233,7 +233,7 @@
         margin-left: auto;
     }
 
-.main-heading__button {
+.main-headline__button {
         display: block;
         color: #F5F4FA;
         background-color: #2196F3;
@@ -251,81 +251,58 @@
     }
 
 
-.main-heading__button:hover {
+.main-headline__button:hover {
         background-color: #2196f3;
         cursor: pointer;
         text-decoration: underline;
         text-decoration-color: #2196f3;
     }
+
     /* ---MAIN-HEADER--- */
+
 
     /* ---LOREM--- */
 
-.section-lorem {
-
-        .section {
+.lorem-section {
         padding-top: 94px;
         padding-bottom: 94px;
+        margin: 0 auto;
     }
 
-        .container {
+.lorem-container {
         display: flex;
         flex-basis: 1200px;
-    }
-
-        .flex-column-main {
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: auto;
     }
-}
 
-    .section-lorem__list {
-    .list {
+.lorem-container__list {
             list-style-type: none;
             display: inline-block;
-        }
-
-    .item {
         display: flex;
         align-items: center;   
         justify-content: space-between;
-    }
-
-    .container-margin {
         justify-content: center;
     }
-    }
 
-    .section-lorem__item-first {
-    .item2 {
+.lorem-container__list-item1 {
             margin-left: auto;
             align-items: center;
             padding-right: 30px;
         }
-    }
 
-    .section-lorem__item-next {
-    .container-item-margin {
+.lorem-container__list-item2 {
             margin-left: 30px;
         }
 
-    }
-    .section-lorem__icon {
-    .icon {
+.lorem-icon {
             width: 270px;
             height: 120px;
             background-color: #F5F4FA;
             border-radius: 4px;
             fill: #2a2a2a;
-        }
-    .icon:hover {
-        cursor: pointer;
-    }
-
-        .icon-lorem {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -334,18 +311,14 @@
         background: #F5F4FA;
         border-radius: 4px;
     }
-    }
 
-    .section-lorem__icon-svg {
-    .icon-lorem-svg {
+
+.lorem-icon__svg {
         width: 70px;
         height: 70px;
     }
-    }
-
-
-    .section-lorem__item-header {
-    .text-index1 {
+    
+.lorem__text-header {
         font-size: 14px;
         font-weight: 700;
         line-height: 1,17em;
@@ -357,10 +330,8 @@
         height: 16px;
         padding-top: 30px;
     }
-    }
 
-    .section-lorem__item-content {
-    .text-index2 {
+.lorem__text-content {
         font-size: 14px;
         line-height: 1,71em;
         letter-spacing: 0,03em;
@@ -371,7 +342,7 @@
         height: 75px;
         padding-top: 10px;
     }
-    }    
+
     /* ---/LOREM--- */
 
     /* ---WHAT-WE-DO--- */
