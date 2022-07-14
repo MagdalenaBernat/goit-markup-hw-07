@@ -519,31 +519,22 @@
     /* ---OUR-CUSTOMERS--- */
 
 .customers {
-    .section1 {
-            padding-top: 94px;
-            padding-bottom: 94px;
-            display: block;
-        }
-}
-        
+        padding-top: 94px;
+        padding-bottom: 94px;
+        display: block;
+}      
 
-.customers-block {
-        .container {
+.customers-container {
             display: flex;
             flex-basis: 1200px;
-        }
-
-        .flex-column-main {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
             margin: auto;
-        }
 }
 
-.customers-block__title {
-    .text-index3 {
+.customers-container__title {
         font-size: 36px;
         font-weight: 700;
         line-height: 1,17em;
@@ -551,63 +542,46 @@
         text-align: center;
         color: #212121;
         background-color: #ffffff;
-    }
 }
 
-.customers-block__list {
-    .list {
+.customers-container__list {
             list-style-type: none;
-            display: inline-block;
-        }
-
-    .item {
         display: flex;
         align-items: center;   
         justify-content: space-between;
-    }
-
-    .container-space {
-        display: flex;
-    }
 }
 
-
-.customers-block__list-item {
-    .item2 {
+.customers-container__list-item {
             margin-left: auto;
             align-items: center;
             padding-right: 30px;
-        }
 }
 
-.customers-block__icon {
-    .icon-clients {
+.customers-container__icon {
         width: 170px;
         height: 120px;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         fill: #AFB1B8;
         background-position: 50% 50%;
-    }
+}
 
-    
-    .icon-clients:hover {
+.customers-container__icon:hover {    
         fill: #2196F3;
         border: 1px solid #2196F3;
         cursor: pointer;
-    }
 }
 
-.customers-block__icon-svg {
-    .icon-clients-svg {
+.customers-container__icon-svg {
             width: 170px;
             height: 120px;
             padding-top: 25px;
-        }
 }
+
     /* ---/OUR-CUSTOMERS--- */
 
 /* ---/MAIN-SECTION--- */
+
 
 /* ---FOOTER-SECTION--- */
 
