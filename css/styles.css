@@ -347,24 +347,19 @@
 
     /* ---WHAT-WE-DO--- */
 
-.whatwedo-container {
 
-        .container {
+.whatwedo-container {
         display: flex;
         flex-basis: 1200px;
-    }
-
-        .flex-column-main {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
             margin: auto;
-        }
 }
 
-    .whatwedo-title {
-    .text-index3 {
+
+.whatwedo-container__title {
             font-size: 36px;
             font-weight: 700;
             line-height: 1, 17em;
@@ -372,50 +367,34 @@
             text-align: center;
             color: #212121;
             background-color: #ffffff;
-        }
-    }
+}
 
-    .whatwedo-list {
-    .list {
-            list-style-type: none;
-            display: inline-block;
-        }
 
-    .item {
+.whatwedo-container__list {
+        list-style-type: none;
+        display: inline-block;
         display: flex;
         align-items: center;   
         justify-content: space-between;
-    }
-
-    .container-margin {
         justify-content: center;
-    }
-
-    .space-between {
         justify-content: space-between;
-    }
+}
 
-    .img-whatwedo li {
+
+.whatwedo-container__list-item {  
         position: relative;
-    }
-    }
+        margin-left: auto;
+        align-items: center;
+        padding-right: 30px;
+}
 
-    .whatwedo-item {
-    .item2 {
-            margin-left: auto;
-            align-items: center;
-            padding-right: 30px;
-        }
-    }
 
-    .whatwedo-image {
-    .img-margin {
+
+.whatwedo-container__img-margin {
             margin-left: 30px;
-        }
-    }
+}
 
-    .whatwedo-description {
-    .profession {
+.whatwedo-container__description {
         position: absolute;
         overflow: visible;
         bottom: -3%;
@@ -431,8 +410,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    }
+}
+
     /* ---/WHAT-WE-DO--- */
 
     /* ---OUR-TEAM--- */
