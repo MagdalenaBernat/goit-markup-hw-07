@@ -559,7 +559,7 @@
 
     /* ---OUR-TEAM--- */
 
-.ourteam {
+.team {
     .section {
             padding-top: 94px;
             padding-bottom: 94px;
@@ -570,7 +570,7 @@
     }
 }
 
-.ourteam-container {
+.team-container {
     .container {
             display: flex;
             flex-basis: 1200px;
@@ -584,7 +584,7 @@
     }
 }
 
-    .ourteam-container__title {
+    .team-container__title {
     .text-index4 {
             font-size: 36px;
             font-weight: 700;
@@ -596,7 +596,7 @@
         }
     }
 
-    .ourteam-container__list {
+    .team-container__list {
     .list {
             list-style-type: none;
             display: inline-block;
@@ -613,7 +613,7 @@
     }
     }
 
-        .ourteam-container__list-item {
+        .team-container__list-item {
     .team-background {
             background-color: #ffffff;
             height: 428px;
@@ -626,7 +626,7 @@
         }
         }
 
-    .ourteam-container__name {
+    .team-container__name {
     .text-index5 {
             font-size: 16px;
             font-weight: 500;
@@ -638,7 +638,7 @@
         }
     }
 
-    .ourteam-container__name-caption {
+    .team-container__name-caption {
     .text-index6 {
         font-size: 16px;
         line-height: 1,71em;
@@ -649,7 +649,7 @@
     }
     }
 
-    .ourteam-container__icons-container {
+    .team-container__icons-container {
     .div-inline {
             display: inline-flex;
             align-items: center;
@@ -658,7 +658,7 @@
         }
     }
 
-    .ourteam-container__icons {
+    .team-container__icons {
     .container-icon:hover svg {
             fill: #ffffff;
         }
@@ -685,7 +685,7 @@
         }
     }
 
-    .ourteam-container__icons-svg {
+    .team-container__icons-svg {
     .team-icon-svg {
             fill: #AFB1B8;
         }
@@ -693,12 +693,252 @@
 
     /* ---/OUR-TEAM--- */
 
+    /* ---OUR-CUSTOMERS--- */
+
+.customers {
+    .section1 {
+            padding-top: 94px;
+            padding-bottom: 94px;
+            display: block;
+        }
+}
+        
+
+.customers-block {
+        .container {
+            display: flex;
+            flex-basis: 1200px;
+        }
+
+        .flex-column-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+        }
+}
+
+.customers-block__title {
+    .text-index3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1,17em;
+        letter-spacing: 0,03em;
+        text-align: center;
+        color: #212121;
+        background-color: #ffffff;
+    }
+}
+
+.customers-block__list {
+    .list {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+    .item {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+    }
+
+    .container-space {
+        display: flex;
+    }
+}
+
+
+.customers-block__list-item {
+    .item2 {
+            margin-left: auto;
+            align-items: center;
+            padding-right: 30px;
+        }
+}
+
+.customers-block__icon {
+    .icon-clients {
+        width: 170px;
+        height: 120px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        fill: #AFB1B8;
+        background-position: 50% 50%;
+    }
+
+    
+    .icon-clients:hover {
+        fill: #2196F3;
+        border: 1px solid #2196F3;
+        cursor: pointer;
+    }
+}
+
+.customers-block__icon-svg {
+    .icon-clients-svg {
+            width: 170px;
+            height: 120px;
+            padding-top: 25px;
+        }
+}
+    /* ---/OUR-CUSTOMERS--- */
+
 /* ---/MAIN-SECTION--- */
 
 /* ---FOOTER-SECTION--- */
 
+.footer-container {
+    .text {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1,17em;
+        color:#ffffff
+    }
+
+    .footer-background-color {
+        background-color: #2F303A;
+    }
+
+    .flex-column-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
 
 
+.footer-block {
+    .container {
+        display: flex;
+        flex-basis: 1200px;
+    }
+}
+
+.footer-block__list {
+
+    .list {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+    }
+    
+    .container-margin {
+        justify-content: center;
+    }   
+}
+
+.footer-logo {
+    .logo3 {
+            color: #2196f3;
+            background-color: #2F303A;
+            font-family: "Raleway";
+            font-size: 26px;
+            line-height: 1, 17em;
+            letter-spacing: 0, 03em;
+        }
+}
+
+.footer-logo2 {
+    .logo4 {
+            color: #ffffff;
+            background-color: #2F303A;
+            font-family: "Raleway";
+            font-size: 26px;
+            line-height: 1, 17em;
+            letter-spacing: 0, 03em;
+        }
+}
+
+.address {
+    .info2 {
+        color: #ffffff;
+        background-color: #2F303A;
+    }
+} 
+
+.contact {
+    .link {
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .info3 {
+        color: rgba(255, 255, 255, 0.6);
+        background-color: #2F303A;
+        }
+}
+
+
+.footer-block__list-item {
+    .item2 {
+        margin-left: auto;
+        align-items: center;
+        padding-right: 30px;
+    }
+
+    .margin-info {
+        margin-left: 70px;
+    }
+}
+
+    .footer-block__title {
+    .text-index7 {
+            font-size: 14px;
+            line-height: 1, 71em;
+            letter-spacing: 0, 03em;
+            color: #ffffff;
+            background-color: #2F303A;
+            text-transform: uppercase;
+        }
+    }
+
+    .footer-icons {
+    .div-inline-footer {
+            display: inline-flex;
+            align-items: center;
+            width: 206px;
+            justify-content: space-around;
+        }
+    }
+
+    .footer-icons__icon {
+    .container-icon:hover svg {
+            fill: #ffffff;
+        }
+    .footer-icon-background {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        fill: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icon-background:hover {
+        background-color: #2196F3;
+        fill: #ffffff;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+
+    .footer-icons__icon-svg {
+    .team-icon-svg {
+            fill: #AFB1B8;
+        }
+    }
 
 /* ---/FOOTER-SECTION--- */
 
@@ -1884,6 +2124,7 @@ textarea:focus {
     color: #FFFFFF;
     margin: 0px;
 }
+
 
 .newsletter {
     display: flex;
