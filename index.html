@@ -382,44 +382,48 @@
             </ul>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>
-                <svg class="close-btn close-icon">
+
+
+    <!-- ---MODAL-WINDOW--- -->
+
+    <div class="modal-window is-hidden" data-modal>
+        <div class="modal-window__container">
+            <button type="button" class="modal-window__close-btn" data-modal-close>
+                <svg class="modal-window__close-btn modal-window__close-icon">
                     <use href="./images/symbol-defs.svg#icon-Vector"></use>
                 </svg>
             </button> 
             <form name="formularz" method="POST" autocomplete="on">
-                <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
-                <div class="modal-box">
-                    <label class="label">
+                <p class="modal-form__title">Zostaw swoje dane w formularzu poniżej</p>
+                <div class="modal-form__box">
+                    <label class="modal-form__label">
                         Imię
-                        <input type="text" name="username" class="input" required/>
-                        <svg class="modal-icon">
+                        <input type="text" name="username" class="modal-form__input" required/>
+                        <svg class="modal-form__icon">
                             <use href="./images/symbol-defs.svg#icon-name"></use>
                         </svg>
                     </label>
-                    <label class="label">
+                    <label class="modal-form__label">
                         Telefon
-                        <input type="tel" name="phone_number" class="input" required/>
-                        <svg class="modal-icon">
+                        <input type="tel" name="phone_number" class="modal-form__input" required/>
+                        <svg class="modal-form__icon">
                             <use href="./images/symbol-defs.svg#icon-phone"></use>
                         </svg>
                     </label>
-                    <label class="label">
+                    <label class="modal-form__label">
                         Email
-                        <input type="email" name="email" class="input" required/>
-                        <svg class="modal-icon">
+                        <input type="email" name="email" class="modal-form__input" required/>
+                        <svg class="modal-form__icon">
                             <use href="./images/symbol-defs.svg#icon-mail"></use>
                         </svg>
                     </label>
-                    <label class="label">
+                    <label class="modal-form__label">
                         Komentarz
-                        <textarea name="feedback" rows="5" placeholder="Wprowadź tekst" class="textarea"></textarea>
+                        <textarea name="feedback" rows="5" placeholder="Wprowadź tekst" class="modal-form__textarea"></textarea>
                     </label>
-                    <label class="user-policy">
-                        <input type="checkbox" name="accept-policy" class="modal-form-policy visually-hidden" href="./images/symbol-defs.svg#icon-check"/>
-                        <p class="modal-form-policy-text"> Oświadczam iż akceptuję 
+                    <label class="modal-form__user-policy">
+                        <input type="checkbox" name="accept-policy" class="modal-form__policy visually-hidden" href="./images/symbol-defs.svg#icon-check"/>
+                        <p class="modal-form__policy-text"> Oświadczam, iż akceptuję 
                             <a href="" class="link">
                                 <span class="color">Regulamin</span>
                             </a> i 
@@ -432,7 +436,7 @@
                 </div>
             </form>
         </div>
-    </footer>
+        <!-- ---/MODAL-WINDOW--- -->
     
     <script src="./js/modal.js"></script>
 </body>
