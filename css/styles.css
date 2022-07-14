@@ -959,39 +959,28 @@
         /* =====PORTFOLIO===== */
 
 
-/* ---NAVIGATION--- */
+/* ---NAVIGATION-PORTFOLIO--- */
 
 .nav-portfolio {
-
-    .section {
             padding-top: 94px;
             padding-bottom: 94px;
-        }
-    
-        .buttons-flex {
         display: flex;
         justify-content: center;
-    }
 }
 
 .nav-portfolio__buttons-list {
-        .list {
                 list-style-type: none;
                 display: inline-block;
-            }
-
-        .buttons-flex {
         display: flex;
         justify-content: center;
-    }
-        .space-portfolio {
+    
+        /* .space-portfolio {
             margin-top: 94px;
             margin-bottom: 50px;
-        }
+        } */
 }
 
 .nav-portfolio__button {
-    .portfolio-button {
         color: #000000;
         background-color: #F5F4FA;
         font-family: 'Roboto';
@@ -1005,10 +994,10 @@
         margin: 10px;
         width: 121px;
         height: 38px;
-    }
-    
+        padding: 6px 22px;
+}
 
-    .portfolio-button:hover {
+.nav-portfolio__button:hover {
         background-color:#2196f3;
         color:#ffffff;
         cursor: pointer;
@@ -1018,13 +1007,9 @@
         transform: translateY(1);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-        .button {
-            padding: 6px 22px;
-        }
 }
 
-/* ---/NAVIGATION--- */
+/* ---/NAVIGATION-PORTFOLIO--- */
 
 /* ---CARDS--- */
 
@@ -1116,16 +1101,7 @@
     text-decoration: none;
 }
 
-
 /* ---/CARDS--- */
-
-
-
-
-
-
-
-
 
         /* =====/PORTFOLIO===== */
 
