@@ -106,7 +106,7 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1,17em;
-            color: #ffffff
+            color: #ffffff;
             background-color: #ffffff;
             padding: 0px;
             margin: 15px;
@@ -618,7 +618,7 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 1,17em;
-        color:#ffffff
+        color:#ffffff;
         background-color: #2F303A;
         display: flex;
         justify-content: center;

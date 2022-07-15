@@ -6,13 +6,13 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1,17em;
-            color: #ffffff
+            color: #ffffff;
             background-color: #ffffff;
             padding: 0px;
             margin: 15px;
             display: flex;
             margin-left: 93px;
-        }
+        
 
 &__item {
     background-color: #ffffff;
@@ -39,6 +39,8 @@
 &__item:hover{
     color: #2196f3;
     cursor: pointer;
+}
+
 }
     
 .active::after {
